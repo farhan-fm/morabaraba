@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ToughnessandPlayer">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:src="@drawable/tandl"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        tools:ignore="MissingConstraints">
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/blackplayer"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp">
+
+        <RadioButton
+            android:id="@+id/Level3"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Level2"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/pink300"
+            android:text="EASY"
+            android:textColor="@color/pink300"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/Level2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Level1"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/pink300"
+            android:text="NORMAL"
+            android:textColor="@color/pink300"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/Level1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/blackplayer"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/pink300"
+            android:text="HARD"
+            android:textColor="@color/pink300"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/blackplayer"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/whiteplayer"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/pink300"
+        android:text="play as black"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/whiteplayer"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="145dp"
+        android:backgroundTint="@color/pink300"
+        android:text="Play as White"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

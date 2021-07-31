@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Morabaraba</string>
+
+    <style name="large_size">100dp</style>
+</resources>

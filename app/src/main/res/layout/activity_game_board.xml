@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    tools:context=".GameBoard">
+
+    <ImageView
+        android:id="@+id/boarder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/boarder"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/ii"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/white"
+        android:text="Marabaraba"
+        tools:ignore="MissingConstraints" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ii"
+        android:layout_marginTop="62dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageButton
+            android:id="@+id/a1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="19dp"
+
+            android:background="@drawable/circlebtn"
+            tools:ignore="MissingConstraints" />
+
+        <ImageButton
+            android:id="@+id/a2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+
+            android:layout_marginLeft="196dp"
+            android:background="@drawable/circlebtn"
+            tools:ignore="MissingConstraints" />
+
+        <ImageButton
+            android:id="@+id/a3"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="373dp"
+            android:background="@drawable/circlebtn"
+            tools:ignore="MissingConstraints" />
+
+        <ImageButton
+            android:id="@+id/a4"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="78dp"
+            android:layout_marginTop="59dp"
+            android:background="@drawable/circlebtn"
+            tools:ignore="MissingConstraints" />
+
+        <ImageButton
+            android:id="@+id/a5"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="196dp"
+            android:layout_marginTop="59dp"
+            android:background="@drawable/circlebtn"
+            tools:ignore="MissingConstraints" />
+
+        <ImageButton
+            android:id="@+id/a6"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="314dp"
+            android:layout_marginTop="59dp"
+            android:background="@drawable/circlebtn"
+            tools:ignore="MissingConstraints" />
+
+        <ImageButton
+            android:id="@+id/a7"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="137dp"
+            android:layout_marginTop="118dp"
+            android:background="@drawable/circlebtn"
+            tools:ignore="MissingConstraints" />
+
+        <ImageButton
+            android:id="@+id/a8"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="196dp"
+            android:layout_marginTop="118dp"
+            android:background="@drawable/circlebtn"
+            tools:ignore="MissingConstraints" />
+
+        <ImageButton
+            android:id="@+id/a9"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="255dp"
+            android:layout_marginTop="118dp"
+            android:background="@drawable/circlebtn"
+            tools:ignore="MissingConstraints" />
+
+
+        <ImageButton
+            android:id="@+id/a10"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="177dp"
+            android:background="@drawable/circlebtn"
+            tools:ignore="MissingConstraints" />
+
+        <ImageButton
+            android:id="@+id/a11"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="78dp"
+            android:layout_marginTop="177dp"
+            android:background="@drawable/circlebtn"
+            tools:ignore="MissingConstraints" />
+
+        <ImageButton
+            android:id="@+id/a12"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="137dp"
+            android:layout_marginTop="177dp"
+            android:background="@drawable/circlebtn"
+            tools:ignore="MissingConstraints" />
+
+        <ImageButton
+            android:id="@+id/a13"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="255dp"
+            android:layout_marginTop="177dp"
+            android:background="@drawable/circlebtn"
+            tools:ignore="MissingConstraints" />
+
+        <ImageButton
+            android:id="@+id/a14"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="314dp"
+            android:layout_marginTop="177dp"
+            android:background="@drawable/circlebtn"
+            tools:ignore="MissingConstraints" />
+
+        <ImageButton
+            android:id="@+id/a15"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="373dp"
+            android:layout_marginTop="177dp"
+            android:background="@drawable/circlebtn"
+            tools:ignore="MissingConstraints" />
+
+        <ImageButton
+            android:id="@+id/a16"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="137dp"
+            android:layout_marginTop="236dp"
+            android:background="@drawable/circlebtn"
+            tools:ignore="MissingConstraints" />
+
+        <ImageButton
+            android:id="@+id/a17"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="196dp"
+            android:layout_marginTop="236dp"
+            android:background="@drawable/circlebtn"
+            tools:ignore="MissingConstraints" />
+
+        <ImageButton
+            android:id="@+id/a18"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="255dp"
+            android:layout_marginTop="236dp"
+            android:background="@drawable/circlebtn"
+            tools:ignore="MissingConstraints" />
+
+        <ImageButton
+            android:id="@+id/a19"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="78dp"
+            android:layout_marginTop="295dp"
+            android:background="@drawable/circlebtn"
+            tools:ignore="MissingConstraints" />
+
+        <ImageButton
+            android:id="@+id/a20"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="196dp"
+            android:layout_marginTop="295dp"
+            android:background="@drawable/circlebtn"
+            tools:ignore="MissingConstraints" />
+
+        <ImageButton
+            android:id="@+id/a21"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="314dp"
+            android:layout_marginTop="295dp"
+            android:background="@drawable/circlebtn" />
+
+        <ImageButton
+            android:id="@+id/a23"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="196dp"
+            android:layout_marginTop="354dp"
+            android:background="@drawable/circlebtn" />
+
+
+        <ImageButton
+            android:id="@+id/a24"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="373dp"
+            android:layout_marginTop="354dp"
+            android:background="@drawable/circlebtn" />
+
+
+        <ImageButton
+            android:id="@+id/a22"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="354dp"
+            android:background="@drawable/circlebtn"
+            tools:ignore="MissingConstraints" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
